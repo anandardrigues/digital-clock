@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body{
+    background:linear-gradient(to right, #0091ea, #673ab7);
+    background-image: url(Drops.jpg);
+    font-family: 'Poppins', sans-serif;
+    color: #1bb9d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock{
+    font-size: 4rem;
+    text-shadow: 0.25rem 0.25rem 0.6rem rgb(255, 255, 255 0.1);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#seconds{
+    min-width: 5.5rem;
+    
+}
